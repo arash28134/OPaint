@@ -26,7 +26,7 @@ add_executable(${PROJECT_NAME}
     ${PROJECT_SOURCE_DIR}/imgui/imstb_rectpack.h
     ${PROJECT_SOURCE_DIR}/imgui/imstb_textedit.h
     ${PROJECT_SOURCE_DIR}/imgui/imstb_truetype.h
-    ${PROJECT_SOURCE_DIR}/ImGuiFileDialog/ImGuiFileDialog.cpp
+    ${PROJECT_SOURCE_DIR}/imgui_fileDialog/ImGuiFileDialog.cpp
     ${PROJECT_SOURCE_DIR}/stb/stb_image_write.h
 )
 
