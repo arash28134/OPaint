@@ -1,0 +1,5 @@
+build/*
+.vscode/*
+imgui/*
+ImGuiFileDialog/*
+stb/*
