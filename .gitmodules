@@ -6,4 +6,4 @@
 	url = git@github.com:nothings/stb.git
 [submodule "imgui_fileDialog"]
 	path = imgui_fileDialog
-	url = https://github.com/aiekick/ImGuiFileDialog/tree/Lib_Only
+	url = git@github.com:aiekick/ImGuiFileDialog.git
