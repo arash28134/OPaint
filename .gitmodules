@@ -1,0 +1,9 @@
+[submodule "imgui"]
+	path = imgui
+	url = git@github.com:ocornut/imgui.git
+[submodule "stb"]
+	path = stb
+	url = git@github.com:nothings/stb.git
+[submodule "imgui_fileDialog"]
+	path = imgui_fileDialog
+	url = https://github.com/aiekick/ImGuiFileDialog/tree/Lib_Only
