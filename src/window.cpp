@@ -61,7 +61,7 @@ int Window::initialize()
 	}
 
 	// create the window
-	mainWindow = glfwCreateWindow(width, height, "GPaint", NULL, NULL);
+	mainWindow = glfwCreateWindow(width, height, "OPaint", NULL, NULL);
 	if (!mainWindow)
 	{
 		std::cerr << "GLFW window creation failed...\n";
