@@ -38,4 +38,4 @@ find_package(OpenGL REQUIRED)
 # link libraries
 target_link_libraries(${PROJECT_NAME} glfw GLEW::glew ${OPENGL_LIBRARIES})
 
-target_include_directories(${PROJECT_NAME} PRIVATE ${PROJECT_SOURCE_DIR}/include ${PROJECT_SOURCE_DIR}/imgui ${PROJECT_SOURCE_DIR}/ImGuiFileDialog ${PROJECT_SOURCE_DIR}/stb)
+target_include_directories(${PROJECT_NAME} PRIVATE ${PROJECT_SOURCE_DIR}/include ${PROJECT_SOURCE_DIR}/imgui ${PROJECT_SOURCE_DIR}/imgui_fileDialog/ImGuiFileDialog ${PROJECT_SOURCE_DIR}/stb)
