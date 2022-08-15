@@ -96,9 +96,13 @@ int main()
 	create_shaders();
 
 	glEnable(GL_PROGRAM_POINT_SIZE);
+
 	GLuint color_location = glGetUniformLocation(shaderProgram->GetProgram(), "u_Color");
 	ImVec4 clear_color = ImVec4(1.0f, 1.0f, 1.0f, 1.0f);
 	ImVec4 bg_color = ImVec4(0.07f, 0.07f, 0.07f, 1.0f);
+
+	// minimum file dialog size
+	ImVec2 dialogMinSize = {(1000.0F), (500.0F)};
 
     // loop until windows closed
 	while (!glfwWindowShouldClose(mainWindow.getWindow()))
@@ -156,7 +160,7 @@ int main()
 				ImGuiFileDialog::Instance()->OpenDialog("ChooseFileDlgKey", "Choose File", ".png", ".");
 
 			// display
-			if (ImGuiFileDialog::Instance()->Display("ChooseFileDlgKey")) 
+			if (ImGuiFileDialog::Instance()->Display("ChooseFileDlgKey", ImGuiWindowFlags_AlwaysAutoResize, dialogMinSize)) 
 			{
 				// action if OK
 				if (ImGuiFileDialog::Instance()->IsOk())
