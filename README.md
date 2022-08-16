@@ -1,10 +1,13 @@
 ## OPaint
-OPaint is a simple drawing app written in C++ using OpenGL, GLFW, GLEW, GLM, Dear ImGui and ImGuiFileDialog libraries. It focuses on providing a lightweight and simple UI for quickly taking notes and saving them as .PNG files
+OPaint is a simple drawing app written in C++ using OpenGL, GLFW, GLEW, GLM, Dear ImGui and ImGuiFileDialog libraries for Linux. It focuses on providing a lightweight and simple UI for quickly taking notes and saving them as .PNG files
 ## Usage
+You can change color of pen and background using color widgets. you can also manually enter their RGB value.
+When you're done drawing, you can save the drawing as a .PNG file
+![Alt text](preview.gif?raw=true "Preview Gif")
 ## Installation
 To install the program, either Build from source or download a pre-built binary from Releases section
 ## Building from source
-- First, clone the repository and It's submodules:
+- First clone the repository and It's submodules:
 ```
 git clone --recurse-submodules https://github.com/arash28134/OPaint.git
 ```
